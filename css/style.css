@@ -1,1 +1,45 @@
 /* TODO: Make it awesome */
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+h1:hover{
+    transform: translateY(7px);
+    text-shadow: 0 0 10px black,
+                  0 0 80px #28A8A8,
+                  0 0 160px #085664;
+}
+body{
+    background: url(https://i.pinimg.com/originals/b0/a6/5e/b0a65e5fc1ccc22aabf5c04e5d268008.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    width: 100%;
+background-attachment: fixed;
+}
+
+ol{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 72px;
+    font-style: italic;
+    word-spacing: 3px;
+}
+#catalog{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+}
+legend{
+    font-weight: lighter;
+    word-spacing: 8px;
+    background-color: rgba(red, green, blue, alpha);
+}
+li{
+    align-items: center;
+    text-decoration: none;
+    display: inline;
+}
