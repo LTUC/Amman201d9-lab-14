@@ -9,6 +9,73 @@ var cart;
 function loadCart() {
   var cartItems = JSON.parse(localStorage.getItem('cart')) || [];
   cart = new Cart(cartItems);
+
+  var table = document.getElementById('cart');
+
+
+  
+  
+  
+
+  for(var j =0 ; j < cartitems.length; j++){
+
+    var row = document.createElement('tr');
+    table.appendChild(row);
+
+
+    
+    var td = document.createElement('td');
+    tr.appendChild(td);
+
+  
+
+
+
+    for(var i =0 ; i < Product.allProducts.length; i++){
+      if(cartitems[j].product === Product.allProducts[i].name){
+
+    
+      var list = document.createElement('figurecaption');
+      var figure = document.createElement('figure');
+      list.appendChild(figure);
+      var listimg = document.createElement('img');
+
+      listimg.setAttribute('src',Product.allProducts[i].filePath);
+      figure.appendChild(listimg);
+      list.textContent = Product.allProducts[i].name
+      td.appendChild(figure);
+      figure.appendChild(list);
+    
+        
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  }
+
 }
 
 // Make magic happen --- re-pull the Cart, clear out the screen and re-draw it
@@ -24,6 +91,7 @@ function clearCart() {}
 // TODO: Fill in the <tr>'s under the <tbody> for each item in the cart
 function showCart() {
 
+  
   // TODO: Find the table body
 
   // TODO: Iterate over the items in the cart

@@ -1,1 +1,71 @@
 /* TODO: Make it awesome */
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+* {
+    text-align: center;
+
+    margin: 20px;
+    font-size: larger;
+
+}
+
+body{
+
+}
+header {
+    margin: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+ul {
+    display: inline;
+}
+li {
+    display: inline-block;
+    
+}
+li a {
+    text-decoration: none;
+}
+
+figure {
+    display: inline-block;
+    border: 2px black solid;
+    
+}
+
+#itemCount {
+    background-color: darkslategrey;
+    position: relative;
+    top: 40%;
+    color: floralwhite;
+}
+#cartContents ul {
+    height: 20px;
+}
+
+figcaption{
+    line-height: 20px;
+}
+
