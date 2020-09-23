@@ -1,1 +1,77 @@
 /* TODO: Make it awesome */
+
+header,main{
+    margin-bottom: 20px;
+}
+header h1{
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+}
+header nav{
+    text-align: center;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: wheat;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    margin: 0% 5%;
+}
+main  section .card header h1{
+    background-color: white;
+    text-align: left;
+    color: black;
+    padding: 0%;
+}
+.copy ol{
+    list-style-type: disc;
+    padding-left: 15px;
+}
+.copy ol li{
+    padding-bottom: 10px;
+}
+form{
+    padding: 20px;
+    margin: 10px 0px;
+}
+form fieldset{
+    padding: 20px;
+    border: solid black 2px;
+}
+form legend{
+    font-weight: bold;
+    background-color: wheat ;
+    font-size: large;
+}
+form label{
+    display: block;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+form input[type=submit]{
+    padding: 5px;
+    border: solid 2px wheat;
+    background-color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: slategray;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+}
